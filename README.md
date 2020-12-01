@@ -23,6 +23,8 @@ Link to awesome article : [view](https://towardsdatascience.com/autoencoders-and
 
 ## Approach
 
+![view](training_overview.png)
+
 - We need both the noisy image and the clean image for training the DAE.
 - The noisy image could be synthesized by adding gaussian noise to the original input images.
 - The noisy images would be fed to the DAE and the output ie. the reconstructed input will be compared with the clean image.
