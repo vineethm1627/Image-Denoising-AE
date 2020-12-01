@@ -34,6 +34,10 @@ Link to awesome article : [view](https://towardsdatascience.com/autoencoders-and
 - The reconstruction error is between the generated output and the clean input image.
 - This will ensure that given the noisy input, the DAE will produce a denoised version of the image by extracting important features in the coding bottleneck layer.
 
+## Basic Model Output after 10 epochs
+
+![view](basic_model_output.png)
+
 ## FMNIST Dataset
 
 Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
